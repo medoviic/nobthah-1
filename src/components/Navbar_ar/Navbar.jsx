@@ -13,7 +13,7 @@ export default function Navbar() {
         <nav className="navbar" dir="rtl">
         <div className="logo" style={{ display: "flex", alignItems: "center", gap: "10px" }}>
   <img
-    src="/logo.png"
+    src="/nobtha logo.png"
     alt="Nobthah Logo"
     style={{ height: "40px", cursor: "pointer" }}
     onClick={() => {
