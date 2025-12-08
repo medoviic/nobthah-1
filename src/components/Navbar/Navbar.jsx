@@ -27,10 +27,8 @@ export default function Navbar() {
     <img
       src="/nobtha.png"
       alt="Nobthah Logo"
-      style={{ height: "32px" }}
+      style={{ height: "40px" }}
     />
-    <h1 style={{ margin: 0 }}>نبذة</h1>
-  </div>
 
 </div>
 
