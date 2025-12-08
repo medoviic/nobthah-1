@@ -11,11 +11,26 @@ export default function Navbar() {
 
     return (
         <nav className="navbar">
-            <div className="logo">
-                <h1 style={{ cursor: 'pointer' }} onClick={() => {
-                    document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' });
-                }}>Nobthah</h1>
-            </div>
+         <div className="logo" style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+  <img
+    src="/logo.png"
+    alt="Nobthah Logo"
+    style={{ height: "40px", cursor: "pointer" }}
+    onClick={() => {
+      document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' });
+    }}
+  />
+  
+  <h1
+    style={{ cursor: 'pointer' }}
+    onClick={() => {
+      document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' });
+    }}
+  >
+    نبذة
+  </h1>
+</div>
+
 
             <div className="links">
                 <a href="#home" onClick={(e) => {
