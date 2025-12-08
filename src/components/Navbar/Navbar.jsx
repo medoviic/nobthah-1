@@ -25,7 +25,7 @@ export default function Navbar() {
     }}
   >
     <img
-      src="/logo.png"
+      src="/nobtha.png"
       alt="Nobthah Logo"
       style={{ height: "32px" }}
     />
